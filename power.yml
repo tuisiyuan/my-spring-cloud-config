@@ -12,8 +12,3 @@ eureka:
 spring:
   application:
     name: client-power
-  cloud:
-    config:
-      name: power
-      label: master
-      uri: http://localhost:9080/

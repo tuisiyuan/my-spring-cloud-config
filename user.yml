@@ -12,11 +12,6 @@ eureka:
 spring:
   application:
     name: client-user
-  cloud:
-    config:
-      name: user
-      label: master
-      uri: http://localhost:9080/
 
 management:
   endpoints:
