@@ -1,0 +1,31 @@
+server:
+  port: 5000
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka3000.com:3000/eureka,http://eureka3001.com:3001/eureka,http://eureka3002.com:3002/eureka
+  instance:
+    instance-id: user-1
+    prefer-ip-address: true
+    leaseRenewalIntervalSeconds: 10
+    leaseExpirationDurationInSeconds: 30
+spring:
+  application:
+    name: client-user
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 3000
+#      circuitBreaker:
+#        requestVolumeThreshold: 5
+#        sleepWindowInMilliseconds: 5000
