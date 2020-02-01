@@ -12,6 +12,11 @@ eureka:
 spring:
   application:
     name: client-zuul
+  cloud:
+    config:
+      name: zuul
+      label: master
+      uri: http://localhost:9080/
 
 zuul:
   ignored-services: '*'
