@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3bb77b6-608c-4338-8bbf-1f3c14b40571" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-first.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-first.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-second.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-second.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-third.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-third.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/power.yml" beforeDir="false" afterPath="$PROJECT_DIR$/power.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

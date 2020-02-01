@@ -12,6 +12,11 @@ eureka:
 spring:
   application:
     name: client-user
+  zipkin:
+    baseUrl: http://localhost:9020
+  sleuth:
+    sampler:
+      probability: 1.0 # request采样的数量 默认是0.1也就是10%
 
 management:
   endpoints:
